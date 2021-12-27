@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         // Matrix 1
-        MatrixFromFile matrix1 = new MatrixFromFile("files/B3.in");
+        MatrixFromFile matrix1 = new MatrixFromFile("files/A2.in"); // The path to the file
         System.out.println("\nInitial Matrix:");
         MatrixUtility.printMatrix(matrix1.getMatrix(), matrix1.getSize());
 
